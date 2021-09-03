@@ -5,7 +5,7 @@ body {
   color: #6c7279;
   -webkin-font-smoothing: antialiased;
 
-  background-color: #fff;
+  background: #31344e url("../img/intro-bg.jpg") center repeat;
 }
 
 *,
@@ -160,11 +160,11 @@ p {
 
 .tabs-triggers{
   display: flex;
-
+  background-color: #515369;
 }
 
 .tabs-triggers__item{
-  color: #000;
+  color: #fff;
   text-align: center;
   padding: 20px;
   text-decoration: none;
@@ -174,6 +174,7 @@ p {
 
 .tabs-triggers__item--active{
   background-color: #eee;
+  color: #000;
 }
 
 .tabs-content{
@@ -185,13 +186,13 @@ p {
   background-color: #eee;
   padding: 20px;
   flex-grow: 1;
-  width: 315px;
-  text-align: center;
-  margin: 0 314px;
+  width: 644px;
+  margin: 0 625px;
 }
 .tabs-content__item:first-child {
   margin-left: 0;
-  width: 312px
+  width: 625px;
+  text-align: left;
 }
 
 .tabs-content__item--active{
@@ -213,4 +214,15 @@ p {
 
 .content__decoration:first-child {
   margin-bottom: 0;
+}
+
+/*Footer
+=======================*/
+
+.footer{
+  text-align: center;
+  color: #fff;
+}
+.global-footer{
+  padding-top: 5px;
 }
